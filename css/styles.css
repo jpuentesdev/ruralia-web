@@ -1,0 +1,37 @@
+body {
+    background-image: url(/img/background.png);
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+}
+
+.card {
+    opacity: 0.85;
+}
+
+.card.testimonial-card {
+    opacity: 1;
+}
+
+main {
+    margin-bottom: 50px; 
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #48231E;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: auto;
+    position: absolute;
+
+}
+
+.nav-link > span:hover {
+    text-decoration: underline;
+}

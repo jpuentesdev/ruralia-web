@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Ruralia</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <!-- Mi hoja de estilos propia -->
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+
+        <!-- Favicon -->
+        <link rel="icon" href="img/Marca.png" type="image/x-icon" />
+        
+    </head>
+
+    <body>
+
+        <!-- El navbar se encuentra en el componente navbar.html-->
+      <div id="navbar"></div>
+
+        <main class="pb-5">
+          <div class="container" style="width: 90%;">
+            <section>
+              <div class="row d-flex justify-content-center">
+                <div class="col-md-10 col-xl-8 text-center">
+                  <h2 class="mb-4">Reviews</h2>
+                  <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+                    ¿Qué opinan nuestros clientes de nosotros?
+                  </p>
+                </div>
+              </div>
+            
+              <div class="row text-center d-flex align-items-stretch">
+                <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+                  <div class="card testimonial-card">
+                    <div class="card-up" style="background-color: #9d789b;"></div>
+                    <div class="avatar mx-auto bg-white">
+                      <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                        class="rounded-circle img-fluid" alt="Foto de clienta" title="Foto de clienta" />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="mb-4">María Smantha</h4>
+                      <hr />
+                      <p class="dark-grey-text mt-4">
+                        <i class="fas fa-quote-left pe-2"></i>¡Mi experiencia en Ruralia fue increíble! Reservé una acogedora cabaña para un fin de semana con mi familia y quedamos encantados. La casa estaba impecable, con una decoración rústica encantadora. El entorno natural era hermoso y proporcionó el escape perfecto de la ciudad.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+                  <div class="card testimonial-card">
+                    <div class="card-up" style="background-color: #7a81a8;"></div>
+                    <div class="avatar mx-auto bg-white">
+                      <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                        class="rounded-circle img-fluid" alt="Foto de clienta" title="Foto de clienta" />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="mb-4">Lisa Montes</h4>
+                      <hr />
+                      <p class="dark-grey-text mt-4">
+                        <i class="fas fa-quote-left pe-2"></i>Reservé una casa rural a través de Ruralia para un retiro de fin de semana con amigos. En general, la experiencia fue positiva. La casa estaba bien equipada y cómoda, y la ubicación ofrecía vistas impresionantes a la montaña. La única pequeña queja fue que algunos electrodomésticos parecían un poco antiguos.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-0 d-flex align-items-stretch">
+                  <div class="card testimonial-card">
+                    <div class="card-up" style="background-color: #6d5b98;"></div>
+                    <div class="avatar mx-auto bg-white">
+                      <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                        class="rounded-circle img-fluid" alt="Foto de cliente" title="Foto de cliente" />
+                    </div>
+                    <div class="card-body">
+                      <h4 class="mb-4">John Smith</h4>
+                      <hr />
+                      <p class="dark-grey-text mt-4">
+                        <i class="fas fa-quote-left pe-2"></i>Mi estancia con Ruralia superó mis expectativas. Reservé una encantadora casa de campo para una escapada romántica y quedé impresionada por la atención al detalle. La casa estaba decorada con gusto, y el personal de Ruralia fue amable y servicial. 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          
+          
+        </main>
+
+        
+      <!-- El footer se encuentra en el componente footer.html-->
+      <div id="footer"></div>
+        <script  src="js/bootstrap.bundle.min.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+        <!-- función load() de jQuery para cargar los archivos HTML de los componentes. -->
+        <script>
+        $(function(){
+          $("#navbar").load("components/navbar.html"); 
+          $("#footer").load("components/footer.html"); 
+        });
+        </script>
+        <!-- Ten en cuenta que load() requiere que el sitio web esté alojado en un servidor, por lo tanto para probar el código hay que abrirlo con la extensión live server -->
+        
+    </body>
+</html>
+
+
+
